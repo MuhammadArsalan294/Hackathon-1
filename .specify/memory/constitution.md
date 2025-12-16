@@ -1,55 +1,43 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 1.0.0
+- Added sections: Vision, Core Principles, Success Criteria, Constraints, Stakeholders, Brand Voice
+- Templates requiring updates: none
+-->
+
+# AI/Spec-Driven Book Creation Constitution
+
+## Vision
+To create a comprehensive, hands-on guide for building projects using a spec-driven development methodology. This book will leverage Docusaurus for documentation, Spec-Kit Plus for process standardization, and AI-driven tooling to deliver a practical learning experience for a technical audience ranging from beginners to intermediates.
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Structured, Accurate, and Spec-Driven Writing
+All content must be meticulously structured, factually accurate, and strictly aligned with the specifications and standards defined by our tooling. Every chapter, section, and code example must be traceable to a requirement in a corresponding spec file.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clarity, Coherence, and Consistency
+The language used must be clear, coherent, and consistent throughout the book. We aim to make complex topics accessible to our target audience without sacrificing technical depth. Terminology, formatting, and style must be uniform.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Hands-On Learning Focus
+The primary goal is to enable readers to learn by doing. Every concept should be accompanied by practical, hands-on exercises that readers can follow to build their own spec-driven projects.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+## Success Criteria
+Success is a fully spec-compliant book, complete with all chapters and code examples, deployed as a Docusaurus site on GitHub Pages. The final product must have a reliable and logical content flow, meet all defined requirements, and receive positive feedback from the target audience for its clarity and practical value.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Constraints
+- **Technology Stack:** The project is strictly bound to using Docusaurus, Spec-Kit Plus, and the designated AI coding assistant. No other major technologies may be introduced without a formal amendment to this constitution.
+- **Deployment Target:** The final output must be a Docusaurus website deployable on GitHub Pages.
+- **Scope:** The book's content is focused exclusively on spec-driven development and the prescribed toolchain.
 
-### [PRINCIPLE_6_NAME]
+## Stakeholders
+- **Authors & Contributors:** Responsible for creating and maintaining the book's content in adherence to this constitution.
+- **Readers:** The target audience (beginners to intermediate developers) for whom the book is written.
+- **Maintainers:** Responsible for the project's infrastructure, tooling, and deployment pipeline.
 
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Brand Voice
+The brand voice is technical, educational, and encouraging. It should be professional yet approachable, guiding the reader through complex topics with clarity and confidence. The tone should empower the reader and foster a sense of accomplishment.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This constitution is the authoritative guide for the project. All development, writing, and contributions must comply with its principles. Amendments require a documented proposal, review by stakeholders, and a clear rationale for the change.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-16 | **Last Amended**: 2025-12-16
