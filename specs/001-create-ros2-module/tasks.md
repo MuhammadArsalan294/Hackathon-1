@@ -44,11 +44,11 @@ description: "Task list for Create ROS 2 Docusaurus Module implementation"
 
 ### Implementation for User Story 1
 
-- [ ] T001 [US1] Create module directory `my-book/docs/module-01-ros2`
-- [ ] T002 [P] [US1] Create chapter directory `my-book/docs/module-01-ros2/chapter-01-introduction`
-- [ ] T003 [P] [US1] Create chapter directory `my-book/docs/module-01-ros2/chapter-02-ros2-basics`
-- [ ] T004 [P] [US1] Create chapter directory `my-book/docs/module-01-ros2/chapter-03-rclpy`
-- [ ] T005 [P] [US1] Create chapter directory `my-book/docs/module-01-ros2/chapter-04-urdf`
+- [x] T001 [US1] Create module directory `my-book/docs/module-01-ros2`
+- [x] T002 [P] [US1] Create chapter directory `my-book/docs/module-01-ros2/chapter-01-introduction`
+- [x] T003 [P] [US1] Create chapter directory `my-book/docs/module-01-ros2/chapter-02-ros2-basics`
+- [x] T004 [P] [US1] Create chapter directory `my-book/docs/module-01-ros2/chapter-03-rclpy`
+- [x] T005 [P] [US1] Create chapter directory `my-book/docs/module-01-ros2/chapter-04-urdf`
 
 **Checkpoint**: At this point, the module and chapter directory structure should be fully functional and testable independently.
 
@@ -62,10 +62,10 @@ description: "Task list for Create ROS 2 Docusaurus Module implementation"
 
 ### Implementation for User Story 2
 
-- [ ] T006 [P] [US2] Create and populate `my-book/docs/module-01-ros2/chapter-01-introduction/index.md` with "Intro to ROS 2 as the robotic nervous system" content.
-- [ ] T007 [P] [US2] Create and populate `my-book/docs/module-01-ros2/chapter-02-ros2-basics/index.md` with "ROS 2 Nodes, Topics, Services with simple examples" content.
-- [ ] T008 [P] [US2] Create and populate `my-book/docs/module-01-ros2/chapter-03-rclpy/index.md` with "Using rclpy to connect Python agents to ROS 2 controllers. Add short code examples" content.
-- [ ] T009 [P] [US2] Create and populate `my-book/docs/module-01-ros2/chapter-04-urdf/index.md` with "Basic URDF for humanoid robots with simple structure examples" content.
+- [x] T006 [P] [US2] Create and populate `my-book/docs/module-01-ros2/chapter-01-introduction/index.md` with "Intro to ROS 2 as the robotic nervous system" content.
+- [x] T007 [P] [US2] Create and populate `my-book/docs/module-01-ros2/chapter-02-ros2-basics/index.md` with "ROS 2 Nodes, Topics, Services with simple examples" content.
+- [x] T008 [P] [US2] Create and populate `my-book/docs/module-01-ros2/chapter-03-rclpy/index.md` with "Using rclpy to connect Python agents to ROS 2 controllers. Add short code examples" content.
+- [x] T009 [P] [US2] Create and populate `my-book/docs/module-01-ros2/chapter-04-urdf/index.md` with "Basic URDF for humanoid robots with simple structure examples" content.
 
 **Checkpoint**: At this point, all chapter content should be created and independently testable.
 
@@ -75,7 +75,7 @@ description: "Task list for Create ROS 2 Docusaurus Module implementation"
 
 **Purpose**: Final review and integration with Docusaurus navigation.
 
-- [ ] T010 Documentation updates: Integrate new module into Docusaurus sidebar navigation in `my-book/sidebars.ts`.
+- [x] T010 Documentation updates: Integrate new module into Docusaurus sidebar navigation in `my-book/sidebars.ts`.
 - [ ] T011 Run Docusaurus build and serve locally to verify all content and navigation renders correctly.
 - [ ] T012 Validate the quickstart guide (`specs/001-create-ros2-module/quickstart.md`) by following its steps.
 
