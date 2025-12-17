@@ -58,7 +58,7 @@ const sidebars: SidebarsConfig = {
         slug: '/module-03-isaac',
       },
       items: [
-        'module-03-isaac/index',
+        'module-03-isaac/introduction-ai-robot-brain',
         'module-03-isaac/lesson-01-isaac-sim',
         'module-03-isaac/lesson-02-isaac-ros',
         'module-03-isaac/lesson-03-nav2-bipedal',
