@@ -74,7 +74,6 @@ const sidebars: SidebarsConfig = {
         slug: '/module-04-vla',
       },
       items: [
-        'module-04-vla/index',
         'module-04-vla/lesson-01-voice-to-action',
         'module-04-vla/lesson-02-cognitive-planning',
         'module-04-vla/lesson-03-autonomous-humanoid',
