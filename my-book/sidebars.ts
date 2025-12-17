@@ -15,7 +15,6 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
-    'intro', // Assuming 'intro' is an existing doc outside the module
     {
       type: 'category',
       label: 'Module 1: The Robotic Nervous System (ROS 2)',
@@ -74,29 +73,10 @@ const sidebars: SidebarsConfig = {
         slug: '/module-04-vla',
       },
       items: [
+        { type: 'doc', id: 'module-04-vla/chapter-01-introduction/index', label: 'Introduction to Vision-Language-Action' },
         'module-04-vla/lesson-01-voice-to-action',
         'module-04-vla/lesson-02-cognitive-planning',
         'module-04-vla/lesson-03-autonomous-humanoid',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Tutorial - Basics',
-      items: [
-        'tutorial-basics/create-a-document',
-        'tutorial-basics/create-a-blog-post',
-        'tutorial-basics/create-a-page',
-        'tutorial-basics/markdown-features',
-        'tutorial-basics/deploy-your-site',
-        'tutorial-basics/congratulations',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Tutorial - Extras',
-      items: [
-        'tutorial-extras/manage-docs-versions',
-        'tutorial-extras/translate-your-site',
       ],
     },
   ],
