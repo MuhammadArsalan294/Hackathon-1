@@ -1,0 +1,10 @@
+{
+  "builds": [
+    {
+      "src": "my-book/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "root": "my-book"
+}
