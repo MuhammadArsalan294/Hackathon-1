@@ -103,7 +103,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/module-01-ros2/chapter-01-introduction',
             },
           ],
         },
